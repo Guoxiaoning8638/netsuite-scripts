@@ -3,7 +3,7 @@
  * @NScriptType UserEventScript
  */
 define(['N/log'], (log) => {
-    const APPROVAL_LIMIT = 10000;
+    const APPROVAL_LIMIT = 20000;
 
     const beforeSubmit = (context) => {
         const so = context.newRecord;
